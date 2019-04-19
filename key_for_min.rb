@@ -3,6 +3,7 @@ require 'pry'
 # Given a hash with numeric values, return the key for the smallest value. If empty hash, return nil.
 def key_for_min_value(name_hash)
   lowest_key = nil
+          binding.pry 
   
   if !name_hash.empty?
     lowest_value = name_hash.first[1]
